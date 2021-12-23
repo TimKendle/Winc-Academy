@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title> Contact </title>
+</head>
+
+<body>
+    <header>
+        <h1 class="black-border">Contact Form</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <labek>yourname: <input type="text" name="name" /></labek>
+        </p>
+        <p>
+            <labek>emailadress: <input type="email" name="email" /></labek>
+        </p>
+        <p>
+            <label>Telephone number : <input type="number" name="Telephone" /></label>
+        </p>
+        <p>
+            <label>age : <input type="number" name="age" /></label>
+        </p>
+        <p>
+            <label>date of birth : <input type="date" name="date" /></label>
+        </p>
+        <p>
+            <label>Gender :
+                <input type="radio" id="Male" name="Male" value="male" />
+                <label for="male">Male</label><br>
+                <input type="radio" id="Female" name="Female" value="Female" />
+                <label for="Female">Female</label>
+            </label>
+        </p>
+        <p>
+            <label> Favorite cuisine? :
+                <input type="checkbox" id="French" name="French" />
+                <label for="French">French</label><br>
+                <input type="checkbox" id="Italian" name="Italian" />
+                <label for="French">Italian</label><br>
+                <input type="checkbox" id="Spanish" name="Spanish" />
+                <label for="French">Spanish</label><br>
+                <input type="checkbox" id="Arabic" name="Arabic" />
+                <label for="French">Arabic</label><br>
+            </label>
+        </p>
+        <p>
+            <label> What is your Favorite apron color ?:
+                <input type="color" />
+            </label>
+        </p>
+        <p>
+            <Label>biography:
+                <textarea name="Biography" id="biography" cols="30" rows="10"></textarea>
+            </Label>
+        </p>
+        <p>
+            <label for="upload_recipe"> Upload Recipe:
+                <input type="file" id="upload_recipe" />
+            </label>
+        </p>
+        <p>
+            <label for="URL"> URL to recipe website :
+                <input type="url" id="URL">
+            </label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
