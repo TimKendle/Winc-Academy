@@ -1,0 +1,971 @@
+*{margin:0;padding:0}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
+body{
+    position: absolute;
+    left: 560px;
+    width: 2560px;
+    height: 1440px;
+
+    background: #F2F2EA;
+}
+
+nav .home{
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    width: 191.2px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    position: absolute;
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #E9F900;
+}
+nav .inloggen{
+    background-color: black;
+
+    position: absolute;
+    width: 191.2px;                    
+    height: 60px;
+    left: 1037.47px;
+    top: 10px;
+
+    background: #000000;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #E9F900;
+
+
+}
+nav .aanmelden{
+    background-color: black;
+
+    position: absolute;
+    width: 191.2px;                    
+    height: 60px;
+    left: 1238.73px;
+    top: 10px;
+
+    background: #000000;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #E9F900;
+
+
+}
+.beam{
+    
+position: absolute;
+width: 8000px;
+height: 80px;
+left: -2560px;
+top: 81px;
+
+background: #E9F900;
+}
+
+nav .trainingen{
+    /* Frame 1 */
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 0px;
+    top: 81px;
+/* TRAININGEN */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #000000;
+}
+
+nav .trainingen-opened{
+    /* Frame 1 */
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 0px;
+    top: 81px;
+    
+    background: #000000;
+
+/* TRAININGEN */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #E9F900;
+    border-radius: 20px;
+}
+nav .locaties{
+
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 288px;
+    top: 81px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+nav .locaties-opened{
+   
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 288px;
+    top: 81px;
+    
+    background: #000000;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #E9F900;
+    border-radius: 20px;
+}
+
+nav .tarieven { 
+
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 576px;
+    top: 81px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+nav .tarieven-opened{
+    /* Frame 1 */
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 576px;
+    top: 81px;
+    
+    background: #000000;
+
+/* TRAININGEN */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #E9F900;
+    border-radius: 20px;
+}
+
+nav .shop{
+    
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 864px;
+    top: 81px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+nav .shop-opened{
+    /* Frame 1 */
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 864px;
+    top: 81px;
+    
+    background: #000000;
+
+/* TRAININGEN */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #E9F900;
+    border-radius: 20px;
+}
+
+nav .contact{
+
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 1152px;
+    top: 81px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+nav .contact-opened{
+    /* Frame 1 */
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 1152px;
+    top: 81px;
+    
+    background: #000000;
+
+/* TRAININGEN */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 80px;
+  
+    text-align: center;
+
+    color: #E9F900;
+    border-radius: 20px;
+}   
+
+h1{
+    position: absolute;
+    width: 648px;
+    height: 80px;
+    left: 377px;
+    top: 10px;
+
+    font-family: Rationale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 68px;
+    /*
+    display: flex;
+    align-items: center;
+    */
+    text-align: center;
+
+    color: #000000;
+}
+h2{
+    position: absolute;
+    width: 191.2px;
+    height: 60px;
+    left: 520px;
+    top: 240px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 42px;
+
+}
+
+h4{
+    position: absolute;
+    width: 191.2px;
+    height: 60px;
+    left: 520px;
+    top: 400px;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 42px;
+}
+
+h5{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 560px;
+    top: 480px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 42px;
+}
+
+.login-user{   
+    position: absolute ;
+    left: 520px;
+    top: 320px;
+
+}
+.login-pass{
+    position: absolute ;
+    left: 520px;
+    top: 360px;
+}
+
+.background-img{
+    position: absolute;
+    width: 1440px;
+    
+    left: 0px;
+    top: 161px;
+    opacity: 0.40;
+
+}
+.background-img2{
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 161px;
+    opacity: 0.40;
+
+}
+
+.background-trainingen{
+    position: absolute;
+    width: 1440px;
+    left: 0px;
+    top: 161px;
+    opacity: 0.40;
+
+}
+
+.trainingen-page{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 520px;
+    top: 360px;
+
+    font-size: 32px;
+    font-family: Roboto;
+
+}
+
+.comingsoon{
+    position: absolute;
+    display: flex;
+    width: 750px;
+    height: 200px;
+    top: 400px;
+    left: 320px;
+    background-color: black;
+    
+
+    font-family:Rationale ;
+    color: #E9F900;
+    font-size: 144px;
+    padding: 50px;
+}
+.locaties-list{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 520px;
+    top: 360px;
+
+    font-size: 32px;
+    font-family: Roboto;
+}
+.locaties-img{
+    position: absolute;
+    top: 161px;
+    opacity: 0.50;
+    width: 1440px;
+}
+.contact-info{
+    position: absolute;
+    top: 320px;
+    left:520px;
+    font-family: roboto;
+    font-size: 24px;
+    text-decoration-line: underline;
+    border: black   solid 3px;
+    padding:10px;
+    padding-right: 100px;
+}
+.tarieven-menu1{
+    position: absolute;
+    border: black solid 5px;
+    border-radius: 30px;
+    width: 1440px;
+    height: 200px;
+
+    background-color: #E9F900;    
+    top: 340px;
+    text-align: center;
+    line-height: 220px;
+    font-family: roboto;
+    font-size: 48px;    
+}
+.tarieven-menu2{
+    position: absolute;
+    border: black solid 5px;
+    border-radius: 30px;
+    width: 1440px;
+    height: 200px;
+
+    background-color: #E9F900;    
+    top: 640px;
+    text-align: center;
+    line-height: 220px;
+    font-family: roboto;
+    font-size: 48px;    
+}
+.tarieven-menu3{
+    position: absolute;
+    border: black solid 5px;
+    border-radius: 30px;
+    width: 1440px;
+    height: 200px;
+
+    background-color: #E9F900;    
+    top: 940px;
+    text-align: center;
+    line-height: 220px;
+    font-family: roboto;
+    font-size: 48px;    
+}
+.aanmelden-formulier{
+    border: black solid 3px;
+    padding: 10px;
+    position: absolute;
+    top: 360px;
+    left: 420px;
+    
+    text-align: right;
+    line-height: 1.8; 
+}
+.login-submit{
+    position: absolute;
+    top: 420px;
+    left: 520px;
+}
+.bootcamp-footer{
+    font-family:Rationale;
+    font-size: 24px;
+}
+
+footer{
+    width: 1440px;
+    position: absolute;
+    top: 1200px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #E9F900;
+    opacity: 0.40;
+}
+
+/* Media ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width:400px) {
+    
+    *{margin:0;padding:0}
+    a:link { text-decoration: none; }
+    
+    
+    a:visited { text-decoration: none; }
+    
+    
+    a:hover { text-decoration: none; }
+    
+    
+    a:active { text-decoration: none; }
+    
+    .mobile-block{
+        display: none;
+        
+    }
+    
+    body{
+        width: 400px;
+        background: #F2F2EA;
+        left: 0;
+    }
+
+    nav .home{
+        background-color: black;
+        border-radius: 20px;
+        position: absolute;
+        width: 140px;
+        height: 60px;
+        left: 10px;
+        top: 91px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 60px;
+        text-align: center;
+    
+        color: #E9F900;
+    }
+    nav .inloggen{
+        background-color: black;
+    
+        position: absolute;
+        width: 191.2px;                    
+        height: 60px;
+        left: 180px;
+        top: 91px;
+    
+        background: #000000;
+        border-radius: 20px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+    
+        color: #E9F900;
+    
+    
+    }
+    nav .aanmelden{
+        background-color: black;
+    
+        position: absolute;
+        width: 200px;     
+        margin-left: 100px;               
+        height: 60px;
+        left: 0px;
+        top: 571px;
+    
+        background: #000000;
+        border-radius: 20px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+    
+        color: #E9F900;
+    
+    
+    }
+    
+    .beam{
+        
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    left: -100px;
+    top: 641px;
+    opacity: 0%;
+    background: #E9F900;
+    }
+    
+    nav .trainingen{
+        /* Frame 1 */
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left: 0px;
+        top: 161px;
+        background-color: #E9F900;
+    /* TRAININGEN */
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 80px;
+      
+        text-align: center;
+    
+        color: #000000;
+    }
+
+    
+    nav .locaties{
+    
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left:0px;
+        
+        top: 241px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 80px;
+    
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    
+    
+    nav .tarieven { 
+    
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left:0px;
+        
+        top: 321px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 80px;
+        background-color: #E9F900;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+
+    nav .shop{
+        
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left:0px;
+        
+        top: 401px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 80px;
+    
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    
+    nav .contact{
+    
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left:0px;
+        
+        top: 481px;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 80px;
+        background-color: #E9F900;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    
+
+    h1{
+        position: absolute;
+        width: 400px;
+        height: 80px;
+        left: 0px;
+        top: 10px;
+    
+        font-family: Rationale;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 68px;
+        /*
+        display: flex;
+        align-items: center;
+        */
+        text-align: center;
+    
+        color: #000000;
+    }
+    h2{
+        position: absolute;
+        width: 400px;
+        height: 60px;
+        left: 0px;
+        top: 181px;
+    
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    h4{
+    position: absolute;
+    width: 191.2px;
+    height: 60px;
+    left: 520px;
+    top: 400px;
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 42px;
+}
+
+h5{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 560px;
+    top: 480px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 42px;
+}
+
+    .login-user{   
+        position: absolute ;
+        left: 100px;
+        top: 320px;
+    
+    }
+    .login-pass{
+        position: absolute ;
+        left: 100px;
+        top: 360px;
+    }
+    
+    .background-img{
+        display: none;
+        position: absolute;
+        width: 1440px;
+        height: 863px;
+        left: 0px;
+        top: 161px;
+        opacity: 0.16;
+    
+    }
+   
+    .trainingen-page{
+        position: absolute;
+        width: 400px;
+        height: 60px;
+        left: 0px;
+        top: 261px;
+    
+        font-size: 32px;
+        font-family: Roboto;
+        text-align: center;
+        text-decoration: underline;    
+    
+    }
+    
+    .comingsoon{
+        position: absolute;
+        display: flex;
+        width: 240px;
+        height: 200px;
+        top:261px;
+        left: 60px;
+        background-color: black;
+        
+        text-align: center;
+        font-family:Rationale ;
+        color: #E9F900;
+        font-size: 72px;
+        padding: 5px;
+    }
+    .locaties-list{
+        position: absolute;
+        width: 400px;
+        left: 100px;
+        top: 261px;
+    
+        font-size: 32px;
+        font-family: Roboto;
+    }
+    .locaties-img{
+        position: absolute;
+        width: 320px;
+        top: 640px;
+        left: 40px;
+    }
+    .contact-info{
+        position: absolute;
+        top: 320px;
+        left:40px;
+        font-family: roboto;
+        font-size: 24px;
+        text-decoration-line: underline;
+        border: black   solid 3px;
+        padding:10px;
+        padding-right: 100px;
+    }
+    .tarieven-menu1{
+        position: absolute;
+        border: black solid 5px;
+        border-radius: 30px;
+        width: 340px;
+        height: 80px;
+        margin-left: 20px;
+        background-color: #E9F900;    
+        top: 241px;
+        text-align: center;
+        line-height: 80px;
+        font-family: roboto;
+        font-size: 16px;    
+    }
+    .tarieven-menu2{
+        position: absolute;
+        border: black solid 5px;
+        border-radius: 30px;
+        width: 340px;
+        height: 80px;
+        margin-left: 20px;
+        background-color: #E9F900;    
+        top:   351px;
+        text-align: center;
+        line-height: 80px;
+        font-family: roboto;
+        font-size: 16px;    
+    }
+    .tarieven-menu3{
+        position: absolute;
+        border: black solid 5px;
+        border-radius: 30px;
+        width: 340px;
+        height: 80px;
+        margin-left: 20px;
+    
+        background-color: #E9F900;    
+        top: 461px;
+        text-align: center;
+        line-height: 80px;
+        font-family: roboto;
+        font-size: 16px;    
+    }
+    .aanmelden-formulier{
+        border: black solid 3px;
+        padding-right: 20px;
+        position: absolute;
+        width: 320px;
+        top: 280px;
+        left: 20px;
+        
+        text-align: right;
+        line-height: 1.8; 
+    }
+    .login-submit{
+        position: absolute;
+        top: 420px;
+        left: 520px;
+
+    }
+    footer{
+        width: 320px;
+        padding: 20px;
+        line-height: 20px;
+    }
+}
